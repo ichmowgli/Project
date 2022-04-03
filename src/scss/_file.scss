@@ -70,4 +70,13 @@
 }
 
 
-// @media (max-width: )
+@media (max-width: 550px) {
+    .file {
+        &__label {
+            display: flex;
+            height: 150px;
+            width: 150px;
+            position: relative;
+        }
+    }
+}

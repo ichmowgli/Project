@@ -794,6 +794,17 @@ main {
   }
 }
 
+@media (max-width: 550px) {
+  .file__label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 150px;
+    width: 150px;
+    position: relative;
+  }
+}
+
 @media (max-width: 479.98px) {
   .container {
     max-width: none;

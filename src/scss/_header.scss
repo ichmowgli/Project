@@ -38,3 +38,13 @@
         color: $red;
     }
 }
+
+@media (max-width: 750px) {
+    header {
+        &__item {
+            &.info__item {
+                padding: 60px 40px;
+            }
+        }
+    }
+}

@@ -1,7 +1,4 @@
 .steps {
-    // .steps__form
-    &__form {
-    }
     // .steps__numbers
     &__numbers {
         display: flex;
@@ -82,18 +79,7 @@
         }
     }
 }
-.button {
-}
-.prev {
-    // .prev__step
-    &__step {
-    }
-}
-.next {
-    // .next__step
-    &__step {
-    }
-}
+
 .input {
     padding: 20px 20px 20px 65px;
     width: 100%;
@@ -128,5 +114,16 @@
         font-size: 25px;
         line-height: 28px;
         color: $blue;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .step {
+        &__number {
+            margin-right: 40px;
+            width: 30px;
+            height: 30px;
+        }
     }
 }

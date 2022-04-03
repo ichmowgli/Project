@@ -776,8 +776,45 @@ main {
   }
 }
 
+@media (max-width: 750px) {
+  header__item.info__item {
+    padding: 60px 40px;
+  }
+
+  .step__number {
+    margin-right: 40px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 740px) {
+  main {
+    padding: 40px;
+  }
+}
+
 @media (max-width: 479.98px) {
   .container {
     max-width: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .checkbox__item .text {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 350px) {
+  .radio__item .fake {
+    width: 20px;
+    height: 20px;
+    right: 15px;
+  }
+
+  .radio__item .fake:after {
+    width: 10px;
+    height: 10px;
   }
 }

@@ -108,3 +108,9 @@ body {
 main {
     padding: 50px 200px;
 }
+
+@media (max-width: 740px) {
+    main {
+        padding: 40px;
+    }
+}

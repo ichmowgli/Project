@@ -86,3 +86,21 @@
         }
     }
 }
+
+
+@media (max-width: 350px) {
+    .radio {
+        &__item {
+            .fake {
+                width: 20px;
+                height: 20px; 
+                right: 15px;
+
+                &:after {
+                    width: 10px;
+                    height: 10px;
+                }
+            }
+        }
+    }
+}
